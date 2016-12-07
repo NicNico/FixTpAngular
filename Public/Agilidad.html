@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Juego: pon a prueba tu agilidad!</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="animacion.css">
+		<!--final de Estilos-->
+		<script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+		
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyAM20XONC6w_QJlxUVisASWzQ2uuutMhTE",
+		    authDomain: "zonadejuejos.firebaseapp.com",
+		    databaseURL: "https://zonadejuejos.firebaseio.com",
+		    storageBucket: "zonadejuejos.appspot.com",
+		    messagingSenderId: "48790462440"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+		<script src="angular.min.js"></script>
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="Agilidad.js"></script>
+        <!--Final de Lógica-Programación -->
+		
+		<div class="CajaAbajo animated bounceInUp">
+			<a style=" margin-top: 0%;"  class="MiBotonUTNMenuInicioParcial" onclick="location.href='menu.html'" >Men&uacute;</a>	
+		</div>
+
+		
+		</head>
+	<body ng-app="Agilidad" ng-controller="controlAgilidad">
+		<div class="CajaUno animated bounceInDown">
+			
+		
+		
+			<form id="FormIngreso"> 
+			<input type="text"  placeholder="Numero 1" ng-model="datos.Numero1" id="Numero1" readonly>
+			<input type="text"  placeholder="Signo" ng-model="datos.Signo" id="Signo" readonly>
+			<input type="text"  placeholder="Numero 2" ng-model="datos.Numero2" id="Numero 2" readonly>
+			<input type="text"  placeholder="Respuesta" ng-model="datos.Respuesta" id="Respuesta">
+			<button  class="MiBotonUTN" ng-click="Aceptar()" >Aceptar</button>
+				<center>
+					<img src="imagenes/agilidad.jpg" >
+				</center>
+				
+			</form>
+			
+		</div>
+		<div class="CajaUno animated bounceInLeft">
+			
+
+		</div>
+
+		<div style=" margin-top: 20%;" class="CajaEnunciado animated bounceInLeft">
+			<h2>Agilidad, como jugas:</h2>
+			
+				<h3>
+						Intenata sumar, restar o multiplicar lo mas rapido que puedas!
+				</h3>
+			
+			
+		</div>
+
+
+	</body>
+</html>

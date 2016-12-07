@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Adivina el numero</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="animacion.css">
+		<!--final de Estilos-->
+
+
+
+		<script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyAM20XONC6w_QJlxUVisASWzQ2uuutMhTE",
+		    authDomain: "zonadejuejos.firebaseapp.com",
+		    databaseURL: "https://zonadejuejos.firebaseio.com",
+		    storageBucket: "zonadejuejos.appspot.com",
+		    messagingSenderId: "48790462440"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+
+		<!--AngularJS-->
+		<script src="angular.min.js"></script>
+		<!--AngularJS-->
+		
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsJuego.js"></script>
+        <!--Final de Lógica-Programación -->
+		
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a  style=" margin-top: 0%;" class="MiBotonUTNMenuInicioParcial" onclick="location.href='menu.html'" >Men&uacute;</a>	
+		</div>		
+
+		</head>
+	<body ng-app="Juego" ng-controller="controlJuego">
+		<div class="CajaUno animated bounceInDown">
+			
+		
+			<form id="FormIngreso">
+
+				<input type="text"  placeholder="Ingrese número" ng-model="datos.numero"id="numero">
+				<input type="text"  placeholder="Ingrese Nombre" ng-model="datos.nombre"id="nombre">				
+				<br>
+				<img src="imagenes/Adivina_num.jpg" >
+			</form>
+			
+		</div>
+		<div class="CajaUno animated bounceInLeft">
+			
+			<button  class="MiBotonUTN" ng-click="jugar()" >Jugar</button>
+
+		</div>
+
+		<div style=" margin-top: 20%;" class="CajaEnunciado animated bounceInLeft">
+			<h2>Adivina el numero, como jugas:</h2>
+			
+	
+				<h3>
+				    Hay un numero secreto escondido, ingresando un numeros por vez, tenes que adivinarlo.
+				</h3>
+			
+		</div>
+
+
+	</body>
+</html>
