@@ -46,7 +46,18 @@ console.info($scope.datos);
 			}
 		}
 		firebase.database().ref("PiedraPapel/").push($scope.datos);
-		window.location = "menu.html";
+		//window.location = "menu.html";
+
+//
+// Get a database reference to our juegos
+var db = firebase.database();
+var ref = db.ref("PiedraPapel/");
+
+ref.orderByChild("eleccion").equalTo("piedra").on("child_added", function(snapshot) {
+  console.log(snapshot.key);
+});
+//
+
 
 
 	};//piedra=function()
@@ -73,7 +84,7 @@ console.info($scope.datos);
 			break;							
 		};
 		firebase.database().ref("PiedraPapel/").push($scope.datos);
-		window.location = "menu.html";
+		//window.location = "menu.html";
 
 
 	};	//papel=function()
@@ -99,7 +110,7 @@ console.info($scope.datos);
 			break;							
 		};
 		firebase.database().ref("PiedraPapel/").push($scope.datos);
-		window.location = "menu.html";
+		//window.location = "menu.html";
 
 	};	//	tijera=function()
 });
