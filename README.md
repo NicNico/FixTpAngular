@@ -1,2 +1,2 @@
-# FixTpAngular
-Este repositorio tiene la estructura Public/imagenes para evitar la duplicidad de Public /Public
+# TpAngularUB
+inicio del trabajo práctico en angular para la Universidad de Belgrano

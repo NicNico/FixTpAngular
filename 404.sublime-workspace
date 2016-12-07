@@ -1,0 +1,248 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/public/menu.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/public/juegos.png",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/public/angular.min.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/animacion.css",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/angular.min.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/Agilidad.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/Agilidad.html_",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/Agilidad.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/404.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/.firebaserc",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/tps.png",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/README.md",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/PiedraPapel.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/PiedraPapel.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/Nico4x4.png",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/menu.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/juegos.png",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/juego.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/FerreteIluminacion.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/jsJuego.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/jsFerretePinturas.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/jsFerreteIluminacion.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/jsFerreteFacturacion.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/jsFerreteConstruccion.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/jsEdad.js",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/index.htmlAux.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/index.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/firebase.json",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/FerretePinturas.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/FerreteConstruccion.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/FerreteFacturacion.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/estilo.css",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/database.rules.json",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/Edad.html",
+		"/C/Users/TOSHIBA/Downloads/TpAngularUB-master/public/bootstrap.min.css",
+		"/C/Temp/TpAngularUB-master/public/Agilidad.html",
+		"/C/Temp/TpAngularUB-master/public/estilo.css",
+		"/C/Temp/TpAngularUB-master/public/Edad.html",
+		"/C/Temp/TpAngularUB-master/public/PiedraPapel.html",
+		"/C/Temp/TpAngularUB-master/public/juego.html",
+		"/C/Temp/TpAngularUB-master/public/menu.html",
+		"/C/Temp/TpAngularUB-master/public/index.html",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/practicaTP/public/index.html",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/practicaTP/public/Agilidad.js",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/practicaTP/public/juego.html",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/practicaTP/public/PiedraPapel.js",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/practicaTP/public/PiedraPapel.html",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/practicaTP/public/menu.html",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/practicaTP/public/Agilidad.html",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/practicaTP/public/jsJuego.js",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/practicaTP/public/FerreteFacturacion.html",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/MiSitioWeb/public/Agilidad.js",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/MiSitioWeb/public/index.html",
+		"/C/Users/TOSHIBA/Documents/UB/Mi_AuxNube/MiSitioWeb/public/Agilidad.html",
+		"/C/Users/TOSHIBA/Documents/UB/TPaux/public/index.html",
+		"/C/Users/TOSHIBA/Documents/UB/TPaux/index.html",
+		"/C/Users/TOSHIBA/Documents/UB/TPaux/public/Agilidad.html",
+		"/C/Users/TOSHIBA/Documents/UB/TPaux/Agilidad.html",
+		"/C/Users/TOSHIBA/Documents/UB/Nuev_ carpeta/Agilidad.html",
+		"/C/Users/TOSHIBA/Documents/UB/Nuev_ carpeta/public/Agilidad.js",
+		"/C/Users/TOSHIBA/Documents/UB/Nuev_ carpeta/public/Agilidad.html",
+		"/C/Users/TOSHIBA/Documents/UB/Nuev_ carpeta/Agilidad.js",
+		"/C/Users/TOSHIBA/Documents/UB/Nuev_ carpeta/animacion.css",
+		"/C/Users/TOSHIBA/Documents/UB/Nuev_ carpeta/public/animacion.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jpg",
+			"inter",
+			"interrogacion.jpg",
+			"tps",
+			"MiBotonUTNLinea",
+			"FormIngreso",
+			":blue;",
+			"background:blue",
+			"background: blue",
+			"MiBotonUTNLinea",
+			"MiBotonUTN",
+			"MiBotonUTNLinea",
+			"MiBotonUTNMenuInicioParcial",
+			"}\n",
+			"{\n",
+			"debe",
+			"ingr",
+			"ingre",
+			"NN",
+			"traba"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "404.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

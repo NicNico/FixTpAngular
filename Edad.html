@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Programación AngularJS</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="animacion.css">
+		<!--final de Estilos-->
+
+
+		<!--AngularJS-->
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<!--AngularJS-->
+		
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsEdad.js"></script>
+        <!--Final de Lógica-Programación -->
+		
+
+		</head>
+	<body ng-app="Edad" ng-controller="controlEdad">
+		<div class="CajaUno animated bounceInDown">
+			
+		
+			<form id="FormIngreso">
+
+				<input type="text"  placeholder="Ingrese número" ng-model="datos.Edad"id="numero">
+				<br>
+				
+			</form>
+			
+		</div>
+		<div class="CajaUno animated bounceInLeft">
+			
+			<button  class="MiBotonUTN" ng-click="MostrarFranjaEdad()" >Jugar</button>
+
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Adivinar, como jugas:</h2>
+			
+	
+				<h3>
+					Usando tu mejor tecnica, tenes que adivinar el numero secreto
+				</h3>
+			
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a  class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; ejercicios</a>	
+		</div>
+	</body>
+</html>

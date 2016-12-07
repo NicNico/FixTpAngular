@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Juego: Te animas un Yan Ken Po?</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="animacion.css">
+		<!--final de Estilos-->
+
+		<script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyAM20XONC6w_QJlxUVisASWzQ2uuutMhTE",
+		    authDomain: "zonadejuejos.firebaseapp.com",
+		    databaseURL: "https://zonadejuejos.firebaseio.com",
+		    storageBucket: "zonadejuejos.appspot.com",
+		    messagingSenderId: "48790462440"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+		<!--AngularJS-->
+		<script src="angular.min.js"></script>
+		<!--AngularJS-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="PiedraPapel.js"></script>
+        <!--Final de Lógica-Programación -->
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a style=" margin-top: 0%;"  class="MiBotonUTNMenuInicioParcial" onclick="location.href='menu.html'" >Men&uacute;</a>	
+		</div>
+
+
+	</head>
+
+	<body ng-app="PiedraPapel" ng-controller="ctrlPiedraPapel">
+		
+		<div class="CajaUno animated bounceInDown">
+			
+		
+			<form id="FormIngreso">
+				<center>
+					<img src="imagenes/PiedraPapel.jpg" >
+					<input type="text"  placeholder="Ingrese Nombre" ng-model="datos.nombre"id="nombre">					
+				</center>
+				
+			</form>
+			
+		</div>
+		<div class="CajaUno animated bounceInLeft">
+			
+			<img class="PiedraPapelTijera animated zoomInRight " src="imagenes/piedra.png" ng-click="piedra()">
+			<img class="PiedraPapelTijera animated zoomInUp" src="imagenes/papel.png" ng-click="papel()">
+			<img class="PiedraPapelTijera animated zoomInLeft"  src="imagenes/tijera.png" ng-click="tijera()">
+
+		</div>
+
+		<div style=" margin-top: 20%;" class="CajaEnunciado animated bounceInLeft">
+			<h2>Piedra, Papel, Tijera, como jugas:</h2>
+			
+				<h3>
+						Despues de ingresar tu nombre,
+						</br>eligiendo las imagenes de abajo, jugas Piedra, Papel, Tijera contra la compu
+						</br>Suerte!!
+
+
+				</h3>
+			
+			
+		</div>
+
+
+	</body>
+</html>
