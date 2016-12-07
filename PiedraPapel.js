@@ -54,8 +54,13 @@ var db = firebase.database();
 var ref = db.ref("PiedraPapel/");
 
 ref.orderByChild("eleccion").equalTo("piedra").on("child_added", function(snapshot) {
-  console.log(snapshot.key);
+  console.log(snapshot.val());
 });
+
+//ref.on("value", function(snapshot) {
+//  console.log(snapshot.val());
+//});
+
 //
 
 
